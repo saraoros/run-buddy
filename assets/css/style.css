@@ -27,7 +27,7 @@ header a {
 }
 header nav {
   float: right;
-  margin: 0px 0;
+  margin: 7px 0;
 }
 header nav ul li {
   display: inline;
@@ -102,7 +102,7 @@ section {
   margin-bottom: 15px;
 }
 
-hero-form label {
+.hero-form label {
   margin: 0 5px;
 }
 
@@ -132,21 +132,6 @@ hero-form label {
   background: #fce138;
 }
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
 .steps div {
   margin-bottom: 80px;
 }
@@ -162,12 +147,6 @@ hero-form label {
   margin-top: 10px;
 }
 
-.steps {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-
 .steps p {
   color: #39a6b2;
   font-size: 23px;
@@ -175,4 +154,19 @@ hero-form label {
 
 .steps span {
   font-size: 38px;
+}
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
